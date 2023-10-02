@@ -8,8 +8,9 @@ function funcaoResposta(){
         else{
             document.getElementById("retorno").textContent = "Errado!";
         }
+    }
     else{
         document.getElementById("retorno").textContent = "Tem que escolher alguma!!";
     }    
-    }
 }
+prompt maria (escreva aqui)
