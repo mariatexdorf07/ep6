@@ -4,19 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script></script>
+   
     <form>
         <h1 class="elemento_pai">De acordo com a lei de Coulomb, a força eletrostática entre duas cargas puntiformes em repouso é:</h1>
-        <input class="elemento_filho"type="radio" name="resposta" value="correta">a) inversamente proporcional ao produto do módulo das cargas e inversamente proporcional ao quadrado da distância entre elas.<br>
-        <input class="elemento_filho"type="radio" name="resposta" value="errada">b) diretamente proporcional ao produto do módulo das cargas e inversamente proporcional ao quadrado da distância entre elas.<br>
-        <input class="elemento_filho" type="radio" name="resposta" value="errada">c) diretamente proporcional ao produto do módulo das cargas e ao quadrado da distância entre elas.        <br>
-        <input class="elemento_filho" type="radio" name="resposta" value="errada">d) uma grandeza escalar, pois é completamente descrita somente por seu módulo.<br>
-        <input class="elemento_filho" type="radio" name="resposta" value="errada">e) uma força de contato e de natureza elétrica.        <br>
+        <input class="elemento_filho"type="radio" name="resposta" value="errada">a) inversamente proporcional ao produto do módulo das cargas e inversamente proporcional ao quadrado da distância entre elas.<br>
+        <input class="elemento_filho"type="radio" name="resposta" value="correta">b) diretamente proporcional ao produto do módulo das cargas e inversamente proporcional ao quadrado da distância entre elas.<br>
+        <input class="elemento_filho" type="radio" name="resposta" value="errada">c) diretamente proporcional ao produto do módulo das cargas e ao quadrado da distância entre elas. <br>
+        <input class="elemento_filho" type="radio" name="resposta" value="errada">d) uma grandeza escalar, pois é completamente descrita somente por seu módulo.       <br>
+        <input class="elemento_filho" type="radio" name="resposta" value="errada">e) uma força de contato e de natureza elétrica.<br>
         <button type="button" onclick="funcaoResposta()">Responder</button>
         <p id="retorno"></p>
-        
+        <script src="script.js"></script>
     </form>
+    <form>
+
+
+        <h1 class="elemento_pai"> De acordo com os princípios da Eletrostática, ao atritarmos dois corpos, é possível que eles fiquem eletrizados. Ao realizar um processo de eletrização similar ao descrito no trecho anterior, observaremos:</h1>
+        <input class="elemento_filho" type="radio" name="resposta" value="Errada">a) Separação de cargas elétricas: um dos corpos irá ceder elétrons para outro corpo, que irá recebê-los, evidenciando o princípio da conservação da energia.<br>
+        <input class="elemento_filho" type="radio" name="resposta" value="Errada">b) Geração de cargas elétricas: um dos corpos irá ceder elétrons para outro corpo, que irá recebê-los, evidenciando o princípio da conservação da carga elétrica.<br>
+        <input class="elemento_filho" type="radio" name="resposta" value="Correta">c) Transferência de cargas elétricas: um dos corpos irá ceder elétrons para outro corpo, que irá recebê-los, evidenciando o princípio da conservação da carga elétrica.<br>
+        <input class="elemento_filho" type="radio" name="resposta" value="Errada">d) Cargas de mesmo sinal e mesmo módulo nos dois corpos envolvidos no processo.<br>
+        <button type="button" onclick="funcaoResposta2()">Responder</button>
+        <p id="maria"></p>
+
+    </form>
+
+    <form>
+
+        <h1 class="elemento_pai">O equilíbrio eletrostático é uma condição atribuída aos materiais condutores. Em relação a esse fenômeno, assinale a alternativa correta:</h1>
+        <input class="elemento_filho" type="radio" name="resposta" value="Errada">a) Nos condutores em equilíbrio eletrostático, o campo elétrico interno é sempre constante, enquanto seu potencial elétrico interno é nulo.<br>
+        <input class="elemento_filho" type="radio" name="resposta" value="Correta">b) Nos condutores em equilíbrio eletrostático, o campo elétrico interno é sempre nulo, enquanto seu potencial elétrico interno é constante.<br>
+        <input class="elemento_filho" type="radio" name="resposta" value="Errada">c) Nos condutores em equilíbrio eletrostático, tanto o campo elétrico quanto o potencial elétrico são constantes.<br>
+        <input class="elemento_filho" type="radio" name="resposta" value="Errada">d) Nos condutores em equilíbrio eletrostático, tanto o campo elétrico quanto o potencial elétrico são nulos.<br>
+        <button type="button" onclick="funcaoResposta3()">Responder</button>
+        <p id="jesus"></p>
+            
+    </form>
+
 </body>
 </html>
