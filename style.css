@@ -1,5 +1,16 @@
 body{
     background-color: rgb(164, 190, 165);
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-areas: 
+    "cabeca"   /* areas do grid */
+    "princi"
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   /* tipo da fonte */
+    margin: 0;
+    padding: 0;
 }
 .elemento_pai{
     border: 2px black solid;
@@ -12,4 +23,19 @@ body{
 }
 button{
     color: pink 2px;
+}
+
+footer{ 
+    background-color: darkcyan;
+    height: 70px;
+}
+
+main{
+    
+
+}
+
+header{
+    background-color: peru;
+    height: 80px;
 }
