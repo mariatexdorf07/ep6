@@ -23,10 +23,11 @@ body{
 }
 .elemento_pai{
     border: 2px black solid;
+    width: auto;
 }
 .elemento_filho{
     border: orangered 2px solid;
-    width: 100px;
+    width: 20px;
     height: 20px;
     margin: 0;
 }
@@ -45,9 +46,10 @@ main{
 }
 
 header{
-    background-color: peru;
-    height: 300px;
-    width: 300px;
+    background-color: dimgray;
+    display: flex;
+    height: 150px;
+    display: inline;
 }
 
 
@@ -58,4 +60,18 @@ header{
 
 .foto1{
     width: 300px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    
+    flex-direction: row;
+    margin-left: 180px;
+    margin-top: 50px;
+    text-align: center;
+    
 }
