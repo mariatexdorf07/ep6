@@ -15,8 +15,8 @@ function funcaoResposta(){
         document.getElementById("retorno").textContent = "Tem que escolher alguma!!";
     }    
 }
-
-function funcaoResposta2(){
+                                                                                                        /*EXERCICIOS DE ALTERNATIVAS*/ 
+function funcaoResposta2(){                     
     var respostaCorreta = "correta";
     var respostaUsuario = document.querySelector('input[name="resposta2"]:checked');
     if(respostaUsuario){
@@ -40,7 +40,7 @@ function funcaoResposta3(){
     if(respostaUsuario){
         if(respostaUsuario.value === respostaCorreta){
             document.getElementById("jesus").textContent = "Correto!";
-            
+                                                                                                                        /*EXERCICIOS DE ALTERNATIVAS*/ 
         }
         else{
             document.getElementById("jesus").textContent = "Errado!";
@@ -51,7 +51,7 @@ function funcaoResposta3(){
         document.getElementById("jesus").textContent = "Tem que escolher alguma!!";
     }    
 }
-
+                                                                                                                    /*EXERCICIOS DE ALTERNATIVAS*/ 
 
 function funcaoResposta4(){
     var respostaCorreta = "correta";
@@ -70,4 +70,8 @@ function funcaoResposta4(){
     else{
         document.getElementById("banana").textContent = "Tem que escolher alguma!!";
     }    
-}
+}                                                                                                                   /*EXERCICIOS DE ALTERNATIVAS*/ 
+ /*AQUI COMEÇA A CALCULADORA*/ 
+
+
+
