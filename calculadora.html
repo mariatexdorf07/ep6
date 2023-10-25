@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function josefa(){
+            feranda.value = parseInt(aran1.value) + parseInt(aran2.value);
+
+        }
+        function multiplicacao(){
+            feranda.value = parseInt(aran1.value) * parseInt(aran2.value);
+
+        }
+
+        function divisao(){
+            if(aran2.value == 0){
+                alert("Não pode dividir por zero!!!");
+                aran1.value = 0;
+            }
+            else{
+            feranda.value = parseInt(aran1.value) / parseInt(aran2.value);
+            }
+        }
+
+    </script>
+
+    <h1>CALCULO DE SOMA</h1>
+
+    Valor 1. <input type="text" id="aran1" value="0"><br>
+    Valor 2. <input type="text" id="aran2" value="0"><br>
+    <input type="button" value="somar" onclick="josefa()">
+    <input type="button" value="multiplicar" onclick="multiplicacao()">
+    <input type="button" value="dividir" onclick="divisao()"><br>
+    Resultado. <input type="text" id="fernanda" value="0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
