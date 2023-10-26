@@ -75,3 +75,63 @@ function funcaoResposta4(){
 
 
 
+function josefa1(){
+  
+    fernanda.value = parseInt(aran1.value) + parseInt(aran2.value);
+
+}
+function multiplicacao(){
+    fernanda.value = parseInt(aran1.value) * parseInt(aran2.value);
+    
+}
+
+function divisao(){
+    if(aran2.value == 0){
+        alert("Não pode dividir por zero!!!");
+        aran1.value = 0;
+    }
+    else{
+    fernanda.value = parseInt(aran1.value) / parseInt(aran2.value);
+    }
+}
+
+
+function josefa2(){
+  
+    fernanda.value = parseInt(aran3.value) + parseInt(aran4.value);
+
+}
+function multiplicacao(){
+    fernanda.value = parseInt(aran3.value) * parseInt(aran4.value);
+    
+}
+
+function divisao(){
+    if(aran2.value == 0){
+        alert("Não pode dividir por zero!!!");
+        aran3.value = 0;
+    }
+    else{
+    fernanda.value = parseInt(aran1.value) / parseInt(aran2.value);
+    }
+}
+
+function josefa3(){
+  
+    fernanda.value = parseInt(aran1.value) + parseInt(aran2.value);
+
+}
+function multiplicacao(){
+    fernanda.value = parseInt(aran1.value) * parseInt(aran2.value);
+    
+}
+
+function divisao(){
+    if(aran2.value == 0){
+        alert("Não pode dividir por zero!!!");
+        aran1.value = 0;
+    }
+    else{
+    fernanda.value = parseInt(aran1.value) / parseInt(aran2.value);
+    }
+}

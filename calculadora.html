@@ -3,58 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <script type="text/javascript">
-        function josefa(){
-            feranda.value = parseInt(aran1.value) + parseInt(aran2.value);
+<body class="body3">
+    <script src="script.js"></script>
+        <header>
+            <nav>
+            <ul>
+            <li><a href="index.html">Exercícios</a></li>
+            <li><a href="index2.html">Conteudo</a></li>
+            <li><a href="calculadora.html">Calculadora</a></li>
+            </ul>
+            </nav>
+        </header>
+    
+    </header>
 
-        }
-        function multiplicacao(){
-            feranda.value = parseInt(aran1.value) * parseInt(aran2.value);
+    
 
-        }
+<main class="main3">
+    
+     <h3 class="elemento_pai">Questão 1) Durante um processo de eletrização, um corpo recebe uma quantidade de 2,0.1015 elétrons, tornando-se eletricamente carregado, com carga elétrica de:</h3><br>
+     <div class="img">
+     <img src="calculo-da-carga-eletrica-exercicio1.webp" alt="">
+     </div>
+     <br>
+     <h3>CALCULO DE SOMA</h3>
 
-        function divisao(){
-            if(aran2.value == 0){
-                alert("Não pode dividir por zero!!!");
-                aran1.value = 0;
-            }
-            else{
-            feranda.value = parseInt(aran1.value) / parseInt(aran2.value);
-            }
-        }
+    Valor:<input type="text" id="aran1" value="0"><br>
+    Valor:<input type="text" id="aran2" value="0"><br>
+    <input type="button" value="somar" onclick="josefa1()"><br>
+    <input type="button" value="multiplicar" onclick="multiplicacao()"><br>
+    <input type="button" value="dividir" onclick="divisao()">
+    <br>
+    Resultado: <input type="text" id="fernanda" value="0">
 
-    </script>
 
-    <h1>CALCULO DE SOMA</h1>
+    <br>
+    <h3 class="elemento_pai">Questão 2) Um corpo apresenta 1,2.103 elétrons a menos que prótons. Determine o sinal e o módulo da carga elétrica desse corpo."</h3><br>
+    <div class="img">
+    <img src="calculo-da-carga-exercicio2.webp" alt="">
+    </div>
+    <br>
+    <h3>CALCULO DE SOMA</h3>
 
-    Valor 1. <input type="text" id="aran1" value="0"><br>
-    Valor 2. <input type="text" id="aran2" value="0"><br>
-    <input type="button" value="somar" onclick="josefa()">
-    <input type="button" value="multiplicar" onclick="multiplicacao()">
+    Valor:<input type="text" id="aran3" value="0"><br>
+    Valor:<input type="text" id="aran4" value="0"><br>
+    <input type="button" value="somar" onclick="josefa2()"><br>
+    <input type="button" value="multiplicar" onclick="multiplicacao()"><br>
     <input type="button" value="dividir" onclick="divisao()"><br>
-    Resultado. <input type="text" id="fernanda" value="0">
+    Resultado: <input type="text" id="fernanda" value="0">
+    <br>
+    <br>
+    <h3 class="elemento_pai">Questão 3) Determine qual é a quantidade de elétrons que precisam ser retirados de um corpo para que sua carga elétrica seja de 6,4 C."</h3><br>
+    <div class="img">
+    <img src="calculo-numero-de-eletrons.webp" alt=""> 
+    </div>
+    <br>
+    <h3>CALCULO DE SOMA</h3>
+
+    Valor:<input type="text" id="aran5" value="0"><br>
+    Valor:<input type="text" id="aran6" value="0"><br>
+    <input type="button" value="somar" onclick="josefa3()"><br>
+    <input type="button" value="multiplicar" onclick="multiplicacao()"><br>
+    <input type="button" value="dividir" onclick="divisao()"><br>
+    Resultado: <input type="text" id="fernanda" value="0">
+
+</main>
 
 
+<footer class="grad_f">
+   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    Referencias:
+    <a href="https://exercicios.brasilescola.uol.com.br/exercicios-fisica/exercicios-sobre-eletrostatica.htm"></a>
+    <a href="https://www.todamateria.com.br/eletrostatica-exercicios/"></a>
+</grad_f>
 
 </body>
 </html>
