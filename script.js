@@ -70,7 +70,69 @@ function funcaoResposta4(){
     else{
         document.getElementById("banana").textContent = "Tem que escolher alguma!!";
     }    
-}                                                                                                                   /*EXERCICIOS DE ALTERNATIVAS*/ 
+}         
+
+
+function funcaoResposta5(){
+    var respostaCorreta = "correta";
+    var respostaUsuario = document.querySelector('input[name="resposta5"]:checked');
+    if(respostaUsuario){
+        if(respostaUsuario.value === respostaCorreta){
+            document.getElementById("deus").textContent = "Correto!";
+                                                                                                                        /*EXERCICIOS DE ALTERNATIVAS*/ 
+        }
+        else{
+            document.getElementById("deus").textContent = "Errado!";
+           
+        }
+    }
+    else{
+        document.getElementById("deus").textContent = "Tem que escolher alguma!!";
+    }    
+}
+
+
+function funcaoResposta6(){
+    var respostaCorreta = "correta";
+    var respostaUsuario = document.querySelector('input[name="resposta6"]:checked');
+    if(respostaUsuario){
+        if(respostaUsuario.value === respostaCorreta){
+            document.getElementById("joana").textContent = "Correto!";
+                                                                                                                        /*EXERCICIOS DE ALTERNATIVAS*/ 
+        }
+        else{
+            document.getElementById("joana").textContent = "Errado!";
+           
+        }
+    }
+    else{
+        document.getElementById("joana").textContent = "Tem que escolher alguma!!";
+    }    
+}
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*EXERCICIOS DE ALTERNATIVAS*/ 
  /*AQUI COMEÇA A CALCULADORA*/ 
 
 
@@ -98,18 +160,18 @@ function divisao(){
 
 function josefa2(){
   
-    fernanda.value = parseInt(aran3.value) + parseInt(aran4.value);
+    fernanda.value = parseInt(aran1.value) + parseInt(aran2.value);
 
 }
 function multiplicacao(){
-    fernanda.value = parseInt(aran3.value) * parseInt(aran4.value);
+    fernanda.value = parseInt(aran1.value) * parseInt(aran2.value);
     
 }
 
 function divisao(){
     if(aran2.value == 0){
         alert("Não pode dividir por zero!!!");
-        aran3.value = 0;
+        aran1.value = 0;
     }
     else{
     fernanda.value = parseInt(aran1.value) / parseInt(aran2.value);
@@ -135,3 +197,4 @@ function divisao(){
     fernanda.value = parseInt(aran1.value) / parseInt(aran2.value);
     }
 }
+

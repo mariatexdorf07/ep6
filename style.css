@@ -55,26 +55,27 @@ footer{
    grid-template-rows: auto;
    margin: 0;
    padding: 0;
-   background-color:  #e9cfc2;
+   background-color:  white;
 }
 
 
 
 .grad_mprincipal{  /*main da pagina principal*/
     grid-area: princi;
-    margin: 10px;
     align-items: center;
     text-align: center;
-    justify-content: center;
-    padding: 100px;
-    background-color:  #e9cfc2;
-    
+    justify-content: center; 
+    background-color:#D2D2C8 ;
+    width: 700px;
+    margin: 0;
+    padding: 40px;
+   
 
 
 }
 
 header{
-    background-color:#cf7e4f;
+    background-color: #B6B7B2;
     display: flex;
     height: 150px;
     display: inline;
@@ -107,7 +108,7 @@ li{
 
 .grad_f{
     grid-area: rodape;
-    background-color:  #cf7e4f;
+    background-color:  #B6B7B2;
     padding: 30px;
 }
 
@@ -122,12 +123,18 @@ li{
     grid-template-rows: auto;
     margin: 0;
     padding: 0;
+    background-color: white;
 
 }
 
 .grad_m2{
-    padding: 100px;
-    background-color:  #e9cfc2;
+    grid-area: princi;
+    background-color: #D2D2C8;
+    width: 700px;
+    margin: 0;
+    padding: 40px;
+    border-radius: 10px;
+   
 }
 
 
@@ -143,12 +150,16 @@ li{
     grid-template-rows: auto;
     margin: 0;
     padding: 0;
-    background-color:  #e9cfc2;
+    background-color:  white;
     }
 .main3{
-    padding: 130px;
+    grid-area: princi;
     border-radius: 10px ;
-    background-color: #e9cfc2;
+    background-color: #D2D2C8;
     text-align: center;
+    width: 700px;
+    margin: 0;
+    padding: 40px;
+   
 }
 
